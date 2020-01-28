@@ -15,7 +15,7 @@ class App extends Component {
       pic: [],
       dataUrl: "http://127.0.0.1:8000/get_stocks_data",
       ticker: "AAPL",
-      imageUrl: `http://127.0.0.1:7263/get_stocks?stocks=["MO"]`
+      imageUrl: `http://127.0.0.1:8000/get_stocks?stocks=["MO"]`
     };
   }
 

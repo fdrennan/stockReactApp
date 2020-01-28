@@ -1,5 +1,8 @@
 This application is a React application, connected to an R API. This project is not yet within Docker, but the companion project to this application can be found at [R Stock API](https://github.com/fdrennan/stockAPI) 
 
+docker build -t reacter .
+docker exec -it reacter /bin/bash
+https://mherman.org/blog/dockerizing-a-react-app/
 ## Available Scripts
 
 In the project directory, you can run:
