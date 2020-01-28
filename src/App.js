@@ -38,7 +38,7 @@ class App extends Component {
   updateTicker = value => {
     this.setState({ ticker: value });
     this.setState({
-      imageUrl: `http://127.0.0.1:7263/get_stocks?stocks=["${value}"]`
+      imageUrl: `http://127.0.0.1:8000/get_stocks?stocks=["${value}"]`
     });
   };
 
