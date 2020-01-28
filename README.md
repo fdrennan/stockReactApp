@@ -1,3 +1,5 @@
+This application is a React application, connected to an R API. This project is not yet within Docker, but the companion project to this application can be found at [R Stock API](https://github.com/fdrennan/stockAPI) 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
