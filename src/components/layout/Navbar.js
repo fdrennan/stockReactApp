@@ -1,16 +1,10 @@
 // rcc
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 class Navbar extends Component {
   static defaultProps = {
-    title: "Stock App",
+    title: "Stock",
     icon: "fas fa-money-bill-wave"
-  };
-
-  static propTypes = {
-    title: PropTypes.string.isRequired,
-    icon: PropTypes.string.isRequired
   };
 
   render() {
